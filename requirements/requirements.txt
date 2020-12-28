@@ -6,7 +6,7 @@ ansiconv==1.0.0           # via -r /awx_devel/requirements/requirements.in
 asgiref==3.2.5            # via channels, channels-redis, daphne
 async-timeout==3.0.1      # via aiohttp, aioredis
 attrs==19.3.0             # via aiohttp, automat, jsonschema, service-identity, twisted
-autobahn==20.3.1          # via daphne
+autobahn==20.12.3          # via daphne
 automat==20.2.0           # via twisted
 azure-common==1.1.25      # via azure-keyvault
 azure-keyvault==1.1.0     # via -r /awx_devel/requirements/requirements.in
