@@ -96,7 +96,7 @@ pyparsing==2.4.5          # via packaging
 python-dateutil==2.8.1    # via adal, azure-storage, botocore
 pyvmomi==6.7.3            # via -r /awx_devel/requirements/requirements_ansible.in
 pywinrm[kerberos]==0.3.0  # via -r /awx_devel/requirements/requirements_ansible.in
-pyyaml==5.2               # via azure-cli-core, knack, openstacksdk
+pyyaml==5.4               # via azure-cli-core, knack, openstacksdk
 requests-credssp==1.0.2   # via -r /awx_devel/requirements/requirements_ansible.in
 requests-kerberos==0.12.0  # via pywinrm
 requests-ntlm==1.1.0      # via pywinrm
