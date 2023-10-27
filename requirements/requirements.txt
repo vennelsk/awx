@@ -19,7 +19,7 @@ channels-redis==2.4.2     # via -r /awx_devel/requirements/requirements.in
 channels==2.4.0           # via -r /awx_devel/requirements/requirements.in, channels-redis
 chardet==3.0.4            # via aiohttp, requests
 constantly==15.1.0        # via twisted
-cryptography==2.8         # via adal, autobahn, azure-keyvault, pyopenssl, service-identity, social-auth-core
+cryptography==41.0.5         # via adal, autobahn, azure-keyvault, pyopenssl, service-identity, social-auth-core
 daphne==2.4.1             # via -r /awx_devel/requirements/requirements.in, channels
 defusedxml==0.6.0         # via python3-openid, python3-saml, social-auth-core
 dictdiffer==0.8.1         # via openshift
@@ -133,3 +133,4 @@ zope.interface==5.0.0     # via twisted
 # The following packages are considered to be unsafe in a requirements file:
 pip==19.3.1               # via -r /awx_devel/requirements/requirements.in
 setuptools==41.6.0        # via -r /awx_devel/requirements/requirements.in, google-auth, jsonschema, kubernetes, markdown, python-daemon, zope.interface
+twisted>=23.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
