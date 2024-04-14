@@ -55,7 +55,7 @@ enum34==1.1.6; python_version < "3" # via cryptography, knack, msrest, ovirt-eng
 futures==3.3.0; python_version < "3" # via openstacksdk, s3transfer
 google-auth==1.6.2        # via -r /awx_devel/requirements/requirements_ansible.in
 humanfriendly==4.18       # via azure-cli-core
-idna==2.8                 # via requests
+idna==3.7                 # via requests
 ipaddress==1.0.23; python_version < "3" # via cryptography, openstacksdk
 iso8601==0.1.12           # via keystoneauth1, openstacksdk
 isodate==0.6.0            # via msrest
