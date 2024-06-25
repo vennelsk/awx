@@ -23,3 +23,4 @@ mockldap
 sdb
 gprof2dot
 atomicwrites==1.1.5
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
