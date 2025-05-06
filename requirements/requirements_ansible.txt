@@ -116,4 +116,4 @@ xmltodict==0.12.0         # via pywinrm
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==19.3.1               # via -r /awx_devel/requirements/requirements_ansible.in, azure-cli-core
-setuptools==41.6.0        # via -r /awx_devel/requirements/requirements_ansible.in, ncclient
+setuptools==78.1.1        # via -r /awx_devel/requirements/requirements_ansible.in, ncclient
