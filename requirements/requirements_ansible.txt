@@ -112,7 +112,7 @@ tabulate==0.8.2           # via azure-cli-core, knack
 typing==3.7.4.1; python_version < "3" # via msrest
 urllib3==1.25.7           # via botocore, requests
 wheel==0.33.6  # via azure-cli-core (overriden, see upgrade blockers)
-xmltodict==0.12.0         # via pywinrm
+xmltodict==0.15.0         # via pywinrm
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==19.3.1               # via -r /awx_devel/requirements/requirements_ansible.in, azure-cli-core
