@@ -81,7 +81,7 @@ psutil==5.7.0             # via ansible-runner
 psycopg2==2.8.4           # via -r /awx_devel/requirements/requirements.in
 ptyprocess==0.6.0         # via pexpect
 pyasn1-modules==0.2.8     # via google-auth, python-ldap, service-identity
-pyasn1==0.4.8             # via pyasn1-modules, python-ldap, rsa, service-identity
+pyasn1==0.6.2             # via pyasn1-modules, python-ldap, rsa, service-identity
 pycparser==2.20           # via cffi
 pygerduty==0.38.2         # via -r /awx_devel/requirements/requirements.in
 pyhamcrest==2.0.2         # via twisted
